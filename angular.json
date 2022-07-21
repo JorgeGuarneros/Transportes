@@ -68,7 +68,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "CrudTransporte:build:production"
+              "browserTarget": "CrudTransporte:build:production",
+              "proxyConfig": "proxy.conf.json"
             },
             "development": {
               "browserTarget": "CrudTransporte:build:development"

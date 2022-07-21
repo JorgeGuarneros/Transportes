@@ -1,0 +1,28 @@
+<div class="container">
+    <p>MODIFICAR TRANSPORTE</p>
+    <div class="row">
+        <div class="col-sm-6">
+            <!--<p>Hola:{{trans.placas}}</p>-->
+            <form>
+                <div class="mb-3">
+                    <label class="form-lable">Nombre del Transporte</label>
+                    <input [(ngModel)]="transporte.transporte" type="text" class="form-control" name="transporte">
+                    
+                </div>
+                <div class="mb-3">
+                    <label class="form-lable">Placas</label>
+                    <input [(ngModel)]="transporte.placas" type="text" class="form-control" name="placas">
+                </div>
+
+                <button (click)="modificar()" class="btn btn-primary">Guardar</button>
+
+            </form>
+
+        </div>
+        <div class="col-sm-6">
+          
+        </div>
+
+    </div>
+</div>
+
